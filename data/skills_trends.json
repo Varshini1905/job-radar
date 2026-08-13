@@ -1,0 +1,145 @@
+{
+  "updated_at": "2026-08-13T18:06:33.325377+00:00",
+  "skill_frequency": [
+    [
+      "aws",
+      56
+    ],
+    [
+      "kubernetes",
+      25
+    ],
+    [
+      "azure",
+      25
+    ],
+    [
+      "cad",
+      19
+    ],
+    [
+      "google cloud",
+      18
+    ],
+    [
+      "ci/cd",
+      17
+    ],
+    [
+      "devops",
+      16
+    ],
+    [
+      "gcp",
+      15
+    ],
+    [
+      "cloud security",
+      12
+    ],
+    [
+      "cyber",
+      9
+    ],
+    [
+      "sre",
+      8
+    ],
+    [
+      "docker",
+      8
+    ],
+    [
+      "splunk",
+      8
+    ],
+    [
+      "s3",
+      8
+    ],
+    [
+      "cybersecurity",
+      8
+    ],
+    [
+      "site reliability",
+      6
+    ],
+    [
+      "terraform",
+      6
+    ],
+    [
+      "vulnerability",
+      5
+    ],
+    [
+      "ansible",
+      4
+    ],
+    [
+      "csa",
+      4
+    ],
+    [
+      "iam",
+      4
+    ],
+    [
+      "incident response",
+      3
+    ],
+    [
+      "ec2",
+      2
+    ],
+    [
+      "cloud engineer",
+      2
+    ],
+    [
+      "github actions",
+      2
+    ],
+    [
+      "security analyst",
+      2
+    ],
+    [
+      "security engineer",
+      2
+    ],
+    [
+      "siem",
+      2
+    ],
+    [
+      "jenkins",
+      2
+    ],
+    [
+      "threat detection",
+      2
+    ],
+    [
+      "vpc",
+      1
+    ],
+    [
+      "cloud support",
+      1
+    ],
+    [
+      "cyber security",
+      1
+    ],
+    [
+      "network security",
+      1
+    ],
+    [
+      "endpoint security",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "updated_at": "2026-08-01T00:00:00Z",
+  "note": "Edit this file directly (in GitHub, or ask Claude to update it) to log progress. status: not_started | in_progress | done. percent: 0-100.",
+  "tracks": [
+    {
+      "track": "Cloud Foundations (LearnToCloud Phase 1)",
+      "items": [
+        {"topic": "Linux fundamentals (CLI, file system, permissions)", "resource": "LearnToCloud curriculum", "url": "https://learntocloud.guide/curriculum", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "Networking basics (DNS, HTTP, TCP/IP)", "resource": "LearnToCloud curriculum", "url": "https://learntocloud.guide/curriculum", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "Git & GitHub", "resource": "LearnToCloud curriculum", "url": "https://learntocloud.guide/curriculum", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "Python basics for automation", "resource": "LearnToCloud curriculum", "url": "https://learntocloud.guide/curriculum", "status": "not_started", "percent": 0, "notes": ""}
+      ]
+    },
+    {
+      "track": "Cloud Core (LearnToCloud Phase 2 - AWS)",
+      "items": [
+        {"topic": "AWS core services (EC2, S3, IAM, VPC)", "resource": "LearnToCloud curriculum", "url": "https://learntocloud.guide/curriculum", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "AWS Certified Cloud Practitioner", "resource": "AWS official exam guide", "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "Cloud Resume Challenge", "resource": "cloudresumechallenge.dev", "url": "https://cloudresumechallenge.dev/docs/the-challenge/aws/", "status": "not_started", "percent": 0, "notes": "Great portfolio project - do this before applying widely"},
+        {"topic": "Infrastructure as Code - Terraform basics", "resource": "HashiCorp Learn - Terraform", "url": "https://developer.hashicorp.com/terraform/tutorials", "status": "not_started", "percent": 0, "notes": ""}
+      ]
+    },
+    {
+      "track": "DevOps Add-on",
+      "items": [
+        {"topic": "Docker basics", "resource": "Docker official docs + Play with Docker", "url": "https://docs.docker.com/get-started/", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "CI/CD with GitHub Actions", "resource": "GitHub Actions docs", "url": "https://docs.github.com/en/actions", "status": "not_started", "percent": 0, "notes": "You'll already be using this for the job tracker itself!"},
+        {"topic": "Kubernetes fundamentals", "resource": "Kubernetes.io basics + KodeKloud free tier", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "status": "not_started", "percent": 0, "notes": ""}
+      ]
+    },
+    {
+      "track": "Cybersecurity Foundations",
+      "items": [
+        {"topic": "Networking for security (ports, protocols, firewalls)", "resource": "TryHackMe - Pre Security path", "url": "https://tryhackme.com/path/outline/presecurity", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "CompTIA Security+ concepts", "resource": "Professor Messer free Security+ course", "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/", "status": "not_started", "percent": 0, "notes": "Free and considered one of the best prep resources"},
+        {"topic": "SOC Analyst fundamentals (SIEM, log analysis)", "resource": "TryHackMe - SOC Level 1 path", "url": "https://tryhackme.com/path/outline/soclevel1", "status": "not_started", "percent": 0, "notes": ""},
+        {"topic": "Hands-on labs / CTFs", "resource": "TryHackMe + Hack The Box (free tiers)", "url": "https://tryhackme.com/", "status": "not_started", "percent": 0, "notes": ""}
+      ]
+    },
+    {
+      "track": "Leverage Your ServiceNow Experience",
+      "items": [
+        {"topic": "ServiceNow CSA (Certified System Administrator)", "resource": "ServiceNow free training - NowLearning", "url": "https://nowlearning.servicenow.com/", "status": "not_started", "percent": 0, "notes": "You're already interning in this - certifying it costs little extra effort and adds a credential while you upskill in cloud"},
+        {"topic": "ITSM + Cloud crossover (ServiceNow ITOM/CMDB with cloud)", "resource": "NowLearning ITOM path", "url": "https://nowlearning.servicenow.com/", "status": "not_started", "percent": 0, "notes": "Strong differentiator: few freshers have both ITSM + Cloud"}
+      ]
+    }
+  ]
+}

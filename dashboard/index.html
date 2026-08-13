@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal — Job Radar</title>
+<style>
+  :root{
+    --bg: #0E1420;
+    --panel: #141B2A;
+    --panel-edge: #232D42;
+    --ink: #E7ECF5;
+    --ink-dim: #8B96AC;
+    --amber: #F2A65A;
+    --cyan: #5FD4D0;
+    --green: #7FD98A;
+    --red: #E8697A;
+    --mono: 'JetBrains Mono', 'SF Mono', 'Consolas', monospace;
+    --sans: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding-bottom: 4rem;
+  }
+  /* signature: signal sweep bar */
+  .sweep-bar{
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--amber), var(--cyan), transparent);
+    background-size: 200% 100%;
+    animation: sweep 4s linear infinite;
+  }
+  @keyframes sweep{
+    0%{ background-position: 200% 0; }
+    100%{ background-position: -200% 0; }
+  }
+  header{
+    padding: 2.5rem 2rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1rem;
+  }
+  .brand{ display:flex; align-items:baseline; gap:0.6rem; }
+  .brand .dot{
+    width:10px; height:10px; border-radius:50%;
+    background: var(--green);
+    box-shadow: 0 0 12px var(--green);
+    display:inline-block;
+  }
+  h1{ font-family: var(--mono); font-size: 1.6rem; font-weight:700; letter-spacing:-0.02em; }
+  .tagline{ color: var(--ink-dim); font-size:0.9rem; margin-top:0.3rem; font-family: var(--mono); }
+  #updated{ color: var(--ink-dim); font-size:0.8rem; font-family: var(--mono); text-align:right; }
+
+  nav{
+    max-width:1100px; margin: 0 auto; padding: 0 2rem;
+    display:flex; gap:0.5rem; border-bottom: 1px solid var(--panel-edge); margin-bottom:2rem;
+  }
+  nav button{
+    background:none; border:none; color: var(--ink-dim);
+    font-family: var(--mono); font-size:0.85rem; padding: 0.8rem 1rem;
+    cursor:pointer; border-bottom: 2px solid transparent; letter-spacing:0.02em;
+  }
+  nav button.active{ color: var(--ink); border-bottom-color: var(--amber); }
+  nav button:hover{ color: var(--ink); }
+
+  main{ max-width:1100px; margin:0 auto; padding: 0 2rem; }
+  .view{ display:none; }
+  .view.active{ display:block; }
+
+  .stat-row{ display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem; }
+  .stat{
+    background: var(--panel); border:1px solid var(--panel-edge); border-radius:10px;
+    padding: 1rem 1.4rem; flex:1; min-width:150px;
+  }
+  .stat .num{ font-family: var(--mono); font-size:1.8rem; color: var(--amber); }
+  .stat .label{ color: var(--ink-dim); font-size:0.78rem; margin-top:0.2rem; }
+
+  .filter-bar{
+    display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-end;
+    background: var(--panel); border:1px solid var(--panel-edge); border-radius:10px;
+    padding: 1rem 1.2rem; margin-bottom: 0.8rem;
+  }
+  .filter-group{ display:flex; flex-direction:column; gap:0.3rem; }
+  .filter-label{ font-family: var(--mono); font-size:0.72rem; color: var(--ink-dim); }
+  .filter-bar select{
+    background: #1c2436; border:1px solid var(--panel-edge); color: var(--ink);
+    padding:0.45rem 0.6rem; border-radius:6px; font-size:0.82rem; min-width:150px;
+  }
+  #filter-reset{
+    background:none; border:1px solid var(--panel-edge); color: var(--ink-dim);
+    padding:0.45rem 0.9rem; border-radius:6px; cursor:pointer; font-family:var(--mono); font-size:0.78rem;
+  }
+  #filter-reset:hover{ color: var(--ink); border-color: var(--cyan); }
+
+  .job-card{
+    background: var(--panel); border:1px solid var(--panel-edge); border-radius:10px;
+    padding: 1.2rem 1.4rem; margin-bottom:0.9rem;
+    display:flex; justify-content:space-between; gap:1rem; align-items:flex-start; flex-wrap:wrap;
+  }
+  .job-title{ font-weight:600; font-size:1rem; }
+  .job-company{ color: var(--cyan); font-family: var(--mono); font-size:0.85rem; margin-top:0.15rem; }
+  .job-loc{ color: var(--ink-dim); font-size:0.8rem; margin-top:0.35rem; }
+  .job-skills{ margin-top:0.6rem; display:flex; gap:0.4rem; flex-wrap:wrap; }
+  .pill{
+    font-family: var(--mono); font-size:0.7rem; padding: 0.2rem 0.55rem;
+    border-radius:20px; border:1px solid var(--panel-edge); color: var(--ink-dim);
+  }
+  .pill.level-explicit{ border-color: var(--green); color: var(--green); }
+  .pill.level-likely{ border-color: var(--amber); color: var(--amber); }
+  .source-tag{ color: var(--ink-dim); font-weight:400; }
+  .apply-btn{
+    background: var(--amber); color:#1A1200; font-weight:700; font-size:0.82rem;
+    padding: 0.55rem 1.1rem; border-radius:8px; text-decoration:none; white-space:nowrap;
+    align-self:center;
+  }
+  .apply-btn:hover{ opacity:0.88; }
+  .empty{ color: var(--ink-dim); font-family: var(--mono); font-size:0.9rem; padding: 2rem 0; text-align:center; }
+
+  .skill-row{ display:flex; align-items:center; gap:1rem; margin-bottom:0.7rem; }
+  .skill-name{ width: 190px; font-family: var(--mono); font-size:0.85rem; flex-shrink:0; }
+  .skill-bar-track{ flex:1; background: var(--panel); border-radius:6px; height:10px; overflow:hidden; border:1px solid var(--panel-edge); }
+  .skill-bar-fill{ height:100%; background: linear-gradient(90deg, var(--cyan), var(--amber)); }
+  .skill-count{ font-family: var(--mono); color: var(--ink-dim); font-size:0.8rem; width:30px; text-align:right; }
+
+  .track{ margin-bottom: 2rem; }
+  .track-title{ font-family: var(--mono); font-size:1rem; color: var(--cyan); margin-bottom:0.8rem; }
+  .item{
+    background: var(--panel); border:1px solid var(--panel-edge); border-radius:8px;
+    padding: 0.9rem 1.1rem; margin-bottom:0.6rem;
+    display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;
+  }
+  .item-topic{ font-size:0.92rem; }
+  .item-resource{ color: var(--ink-dim); font-size:0.78rem; margin-top:0.2rem; }
+  .item-resource a{ color: var(--ink-dim); }
+  .status-badge{
+    font-family: var(--mono); font-size:0.72rem; padding:0.25rem 0.6rem; border-radius:20px; white-space:nowrap;
+  }
+  .status-not_started{ background: rgba(139,150,172,0.15); color: var(--ink-dim); }
+  .status-in_progress{ background: rgba(242,166,90,0.15); color: var(--amber); }
+  .status-done{ background: rgba(127,217,138,0.15); color: var(--green); }
+  .progress-mini{ width:80px; height:6px; background:#1c2436; border-radius:4px; overflow:hidden; }
+  .progress-mini-fill{ height:100%; background: var(--green); }
+
+  footer{
+    max-width:1100px; margin: 3rem auto 0; padding: 1.5rem 2rem;
+    color: var(--ink-dim); font-size:0.78rem; font-family: var(--mono);
+    border-top: 1px solid var(--panel-edge);
+  }
+
+  /* Study Squad */
+  .skill-row.clickable{ cursor:pointer; border-radius:6px; transition: background 0.15s; }
+  .skill-row.clickable:hover{ background: rgba(95,212,208,0.08); }
+  .setup-notice{
+    background: var(--panel); border:1px solid var(--amber); border-radius:10px;
+    padding: 1.2rem 1.4rem; color: var(--ink);
+  }
+  .setup-notice p{ color: var(--ink-dim); margin-top:0.6rem; font-size:0.88rem; line-height:1.5; }
+  .setup-notice code{ font-family:var(--mono); background:#1c2436; padding:0.1rem 0.4rem; border-radius:4px; font-size:0.82rem; }
+  .squad-panel{
+    background: var(--panel); border:1px solid var(--panel-edge); border-radius:10px;
+    padding: 1.2rem 1.4rem; margin-bottom: 1.2rem;
+  }
+  .panel-title{ font-family: var(--mono); font-size:0.95rem; color: var(--cyan); margin-bottom:0.9rem; }
+  .member-chips{ display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:0.9rem; }
+  .member-chip{
+    font-family: var(--mono); font-size:0.8rem; padding:0.3rem 0.7rem;
+    background: rgba(242,166,90,0.12); color: var(--amber); border-radius:20px;
+  }
+  .empty-inline{ color: var(--ink-dim); font-size:0.85rem; font-family: var(--mono); }
+  .add-resource-row{ display:flex; gap:0.6rem; flex-wrap:wrap; }
+  .add-resource-row input{
+    background: #1c2436; border:1px solid var(--panel-edge); color: var(--ink);
+    padding:0.5rem 0.7rem; border-radius:6px; font-size:0.85rem; flex:1; min-width:140px;
+  }
+  .add-resource-row button, #squad-content select{
+    background: var(--cyan); color:#04231F; border:none; font-weight:700;
+    padding:0.5rem 1rem; border-radius:6px; cursor:pointer; font-size:0.85rem;
+  }
+  #your-name-select{ width:100%; padding:0.55rem; margin-bottom:0.5rem; background:#1c2436; color:var(--ink); border:1px solid var(--panel-edge); border-radius:6px; }
+  .hint{ color: var(--ink-dim); font-size:0.78rem; }
+  .squad-group{ border:1px solid var(--panel-edge); border-radius:8px; margin-bottom:0.7rem; overflow:hidden; }
+  .squad-group-header{
+    width:100%; background:#1a2233; border:none; color:var(--ink); text-align:left;
+    padding:0.8rem 1rem; font-family:var(--mono); font-size:0.88rem; cursor:pointer;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .squad-group-body{ display:none; padding: 0.9rem 1rem 1.1rem; }
+  .squad-group.expanded .squad-group-body{ display:block; }
+  .squad-group.expanded .chevron{ transform: rotate(180deg); }
+  .chevron{ transition: transform 0.15s; color: var(--ink-dim); }
+  .resource-list{ margin-bottom:0.8rem; }
+  .resource-row{
+    display:flex; justify-content:space-between; align-items:center; gap:0.6rem;
+    padding:0.5rem 0; border-bottom:1px solid var(--panel-edge); font-size:0.87rem;
+  }
+  .resource-row a{ color: var(--ink); text-decoration:none; }
+  .resource-row a:hover{ color: var(--cyan); }
+  .added-by{ font-family:var(--mono); font-size:0.7rem; color: var(--ink-dim); white-space:nowrap; }
+  .curated-tag{ color: var(--amber); }
+</style>
+</head>
+<body>
+  <div class="sweep-bar"></div>
+  <header>
+    <div>
+      <div class="brand"><span class="dot"></span><h1>SIGNAL</h1></div>
+      <div class="tagline">fresher job radar — cloud &amp; cybersecurity</div>
+    </div>
+    <div id="updated">last scan: —</div>
+  </header>
+
+  <nav>
+    <button class="tab-btn active" data-view="jobs">Job Feed</button>
+    <button class="tab-btn" data-view="trends">Skill Trends</button>
+    <button class="tab-btn" data-view="learning">Learning Tracker</button>
+    <button class="tab-btn" data-view="squad">Study Squad</button>
+  </nav>
+
+  <main>
+    <section id="view-jobs" class="view active">
+      <div class="stat-row">
+        <div class="stat"><div class="num" id="stat-total">0</div><div class="label">MATCHED POSTINGS</div></div>
+        <div class="stat"><div class="num" id="stat-remote">0</div><div class="label">REMOTE</div></div>
+        <div class="stat"><div class="num" id="stat-hyd">0</div><div class="label">HYDERABAD</div></div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Skill</span>
+          <select id="filter-skill">
+            <option value="all">All</option>
+            <option value="cloud">Cloud</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="devops">DevOps</option>
+            <option value="servicenow">ServiceNow</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Location</span>
+          <select id="filter-location">
+            <option value="all">All</option>
+            <option value="remote">Remote</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="india">Other India</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Fresher confidence</span>
+          <select id="filter-level">
+            <option value="all">All</option>
+            <option value="explicit">Explicitly labeled fresher</option>
+            <option value="likely">Likely fresher (unlabeled)</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Source</span>
+          <select id="filter-source">
+            <option value="all">All</option>
+            <option value="greenhouse">Greenhouse</option>
+            <option value="lever">Lever</option>
+            <option value="adzuna">Adzuna</option>
+            <option value="remoteok">RemoteOK</option>
+            <option value="remotive">Remotive</option>
+          </select>
+        </div>
+        <button id="filter-reset">Reset</button>
+      </div>
+      <div id="filter-count" class="hint" style="margin-bottom:1rem;"></div>
+
+      <div id="job-list"></div>
+    </section>
+
+    <section id="view-trends" class="view">
+      <p style="color:var(--ink-dim); font-family:var(--mono); font-size:0.85rem; margin-bottom:1.5rem;">
+        Frequency of each skill keyword across all matched fresher postings — use this to decide what to learn next.
+      </p>
+      <div id="skill-list"></div>
+    </section>
+
+    <section id="view-learning" class="view">
+      <div id="learning-list"></div>
+    </section>
+
+    <section id="view-squad" class="view">
+      <div id="squad-setup-notice" class="setup-notice" style="display:none;">
+        <strong>Study Squad isn't connected yet.</strong>
+        <p>This is the shared room where you and anyone learning with you can add resources,
+        track certifications, and see each other's progress live. It needs a free Firebase
+        project (5 min setup, no cost). See <code>README.md → "Study Squad Setup"</code> for
+        the exact steps, then paste your config into <code>dashboard/firebase-config.js</code>.</p>
+      </div>
+
+      <div id="squad-content">
+        <div class="squad-panel">
+          <div class="panel-title">Members</div>
+          <div id="squad-members-list" class="member-chips"></div>
+          <div class="add-resource-row">
+            <input type="text" id="new-member-name" placeholder="Your name" />
+            <button onclick="addMember()">Add me</button>
+          </div>
+        </div>
+
+        <div class="squad-panel">
+          <div class="panel-title">Posting as</div>
+          <select id="your-name-select"></select>
+          <div class="hint">Pick your name here before adding resources or certifications below, so the group knows who added what.</div>
+        </div>
+
+        <div class="squad-panel">
+          <div class="panel-title">Shared Resources — click a group to expand</div>
+          <div id="squad-resource-groups"></div>
+        </div>
+
+        <div class="squad-panel">
+          <div class="panel-title">Certifications we're tracking</div>
+          <div id="squad-certs-list"></div>
+          <div class="add-resource-row">
+            <input type="text" id="new-cert-name" placeholder="e.g. AWS Cloud Practitioner" />
+            <button onclick="addCertification()">Track it</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    data refreshes automatically every 2 hours via GitHub Actions · edit config.py or data/learning_tracker.json to customize
+  </footer>
+
+<script>
+async function loadJSON(path){
+  try{
+    const res = await fetch(path + '?t=' + Date.now());
+    if(!res.ok) throw new Error('not found');
+    return await res.json();
+  }catch(e){
+    return null;
+  }
+}
+
+function timeAgo(iso){
+  if(!iso) return 'no scan yet';
+  const diff = (Date.now() - new Date(iso).getTime())/60000;
+  if(diff < 60) return Math.round(diff) + ' min ago';
+  return Math.round(diff/60) + ' hr ago';
+}
+
+let ALL_JOBS = [];
+
+function jobCardHTML(j){
+  const skills = Object.values(j.matched_skills || {}).flat().slice(0,5);
+  const levelTag = j.fresher_level === 'explicit'
+    ? '<span class="pill level-explicit">labeled fresher</span>'
+    : '<span class="pill level-likely">likely fresher</span>';
+  return `<div class="job-card">
+    <div>
+      <div class="job-title">${j.title}</div>
+      <div class="job-company">${j.company} <span class="source-tag">· ${j.source || ''}</span></div>
+      <div class="job-loc">${j.location || 'Location not listed'}</div>
+      <div class="job-skills">${levelTag}${skills.map(s => `<span class="pill">${s}</span>`).join('')}</div>
+    </div>
+    <a class="apply-btn" href="${j.url}" target="_blank" rel="noopener">Apply →</a>
+  </div>`;
+}
+
+function applyFilters(){
+  const skill = document.getElementById('filter-skill').value;
+  const loc = document.getElementById('filter-location').value;
+  const level = document.getElementById('filter-level').value;
+  const source = document.getElementById('filter-source').value;
+
+  const filtered = ALL_JOBS.filter(j => {
+    if(skill !== 'all' && !(j.matched_skills && j.matched_skills[skill])) return false;
+    if(level !== 'all' && j.fresher_level !== level) return false;
+    if(source !== 'all' && j.source !== source) return false;
+    if(loc !== 'all'){
+      const l = (j.location || '').toLowerCase();
+      if(loc === 'india'){
+        if(!(l.includes('india') && !l.includes('hyderabad') && !l.includes('bangalore') && !l.includes('bengaluru'))) return false;
+      } else if(!l.includes(loc)){
+        return false;
+      }
+    }
+    return true;
+  });
+
+  const list = document.getElementById('job-list');
+  const countEl = document.getElementById('filter-count');
+  if(filtered.length === 0){
+    list.innerHTML = '<div class="empty">No postings match this filter combination — try loosening one.</div>';
+  } else {
+    list.innerHTML = filtered.map(jobCardHTML).join('');
+  }
+  countEl.textContent = `Showing ${filtered.length} of ${ALL_JOBS.length} matched postings`;
+}
+
+async function renderJobs(){
+  const data = await loadJSON('../data/jobs.json');
+  const list = document.getElementById('job-list');
+  if(!data || !data.jobs || data.jobs.length === 0){
+    list.innerHTML = '<div class="empty">No matches yet — the scanner runs every 2 hours. Check back soon, or trigger it manually from the GitHub Actions tab.</div>';
+    document.getElementById('updated').textContent = 'last scan: ' + timeAgo(data ? data.updated_at : null);
+    return;
+  }
+  document.getElementById('updated').textContent = 'last scan: ' + timeAgo(data.updated_at);
+  document.getElementById('stat-total').textContent = data.total_matched;
+  document.getElementById('stat-remote').textContent = data.jobs.filter(j => (j.location||'').toLowerCase().includes('remote')).length;
+  document.getElementById('stat-hyd').textContent = data.jobs.filter(j => (j.location||'').toLowerCase().includes('hyderabad')).length;
+
+  ALL_JOBS = data.jobs;
+  ['filter-skill','filter-location','filter-level','filter-source'].forEach(id => {
+    document.getElementById(id).addEventListener('change', applyFilters);
+  });
+  document.getElementById('filter-reset').addEventListener('click', () => {
+    ['filter-skill','filter-location','filter-level','filter-source'].forEach(id => {
+      document.getElementById(id).value = 'all';
+    });
+    applyFilters();
+  });
+  applyFilters();
+}
+
+// mirrors config.py SKILL_KEYWORDS groupings, used to route a clicked skill
+// to the right Study Squad resource group
+const KEYWORD_TO_GROUP = {
+  aws:"cloud", azure:"cloud", gcp:"cloud", "google cloud":"cloud", ec2:"cloud", s3:"cloud",
+  lambda:"cloud", cloudformation:"cloud", terraform:"cloud", kubernetes:"cloud", docker:"cloud",
+  iam:"cloud", vpc:"cloud", "cloud engineer":"cloud", "cloud support":"cloud", "cloud administrator":"cloud",
+  "security analyst":"cybersecurity", "soc analyst":"cybersecurity", siem:"cybersecurity", splunk:"cybersecurity",
+  cybersecurity:"cybersecurity", "penetration testing":"cybersecurity", vulnerability:"cybersecurity",
+  "incident response":"cybersecurity", "security+":"cybersecurity", ceh:"cybersecurity",
+  "network security":"cybersecurity", "endpoint security":"cybersecurity", "threat detection":"cybersecurity",
+  "ci/cd":"devops", jenkins:"devops", "github actions":"devops", ansible:"devops", devops:"devops",
+  "site reliability":"devops", sre:"devops", "linux administration":"devops",
+  servicenow:"servicenow", itsm:"servicenow", csa:"servicenow", cad:"servicenow", itom:"servicenow",
+};
+
+async function renderTrends(){
+  const data = await loadJSON('../data/skills_trends.json');
+  const list = document.getElementById('skill-list');
+  if(!data || !data.skill_frequency || data.skill_frequency.length === 0){
+    list.innerHTML = '<div class="empty">No trend data yet — appears after the first scan finds matching postings.</div>';
+    return;
+  }
+  const max = Math.max(...data.skill_frequency.map(s => s[1]));
+  list.innerHTML = data.skill_frequency.map(([name,count]) => {
+    const group = KEYWORD_TO_GROUP[name.toLowerCase()] || null;
+    return `
+    <div class="skill-row${group ? ' clickable' : ''}" ${group ? `onclick="openSkillGroup('${group}')"` : ''}>
+      <div class="skill-name">${name}</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" style="width:${(count/max*100)}%"></div></div>
+      <div class="skill-count">${count}</div>
+    </div>`;
+  }).join('') + '<div class="hint" style="margin-top:1rem;">Click any skill to jump to free resources for it in Study Squad →</div>';
+}
+
+async function renderLearning(){
+  const data = await loadJSON('../data/learning_tracker.json');
+  const list = document.getElementById('learning-list');
+  if(!data || !data.tracks){
+    list.innerHTML = '<div class="empty">Learning tracker data not found.</div>';
+    return;
+  }
+  list.innerHTML = data.tracks.map(track => `
+    <div class="track">
+      <div class="track-title">${track.track}</div>
+      ${track.items.map(item => `
+        <div class="item">
+          <div>
+            <div class="item-topic">${item.topic}</div>
+            <div class="item-resource"><a href="${item.url}" target="_blank" rel="noopener">${item.resource}</a>${item.notes ? ' — ' + item.notes : ''}</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.7rem;">
+            <div class="progress-mini"><div class="progress-mini-fill" style="width:${item.percent}%"></div></div>
+            <span class="status-badge status-${item.status}">${item.status.replace('_',' ')}</span>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('view-' + btn.dataset.view).classList.add('active');
+  });
+});
+
+renderJobs();
+renderTrends();
+renderLearning();
+</script>
+<!-- Study Squad: shared, live-synced learning room (Firebase) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="study-squad.js"></script>
+</body>
+</html>
