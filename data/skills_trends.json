@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T10:49:43.395604+00:00",
+  "updated_at": "2026-08-14T12:41:44.444240+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -120,6 +120,14 @@
     [
       "threat detection",
       2
+    ],
+    [
+      "malware",
+      1
+    ],
+    [
+      "firewall",
+      1
     ],
     [
       "vpc",
