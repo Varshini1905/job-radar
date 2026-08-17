@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-17T06:34:07.638968+00:00",
+  "updated_at": "2026-08-17T08:32:14.591558+00:00",
   "skill_frequency": [
     [
       "aws",
-      55
+      56
     ],
     [
       "kubernetes",
@@ -15,7 +15,7 @@
     ],
     [
       "cad",
-      21
+      20
     ],
     [
       "google cloud",
@@ -39,7 +39,7 @@
     ],
     [
       "cyber",
-      9
+      10
     ],
     [
       "sre",
@@ -74,6 +74,10 @@
       5
     ],
     [
+      "incident response",
+      4
+    ],
+    [
       "ansible",
       4
     ],
@@ -84,10 +88,6 @@
     [
       "iam",
       4
-    ],
-    [
-      "incident response",
-      3
     ],
     [
       "ec2",
@@ -120,6 +120,10 @@
     [
       "threat detection",
       2
+    ],
+    [
+      "iso 27001",
+      1
     ],
     [
       "malware",
