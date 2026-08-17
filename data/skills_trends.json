@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-17T12:23:19.888882+00:00",
+  "updated_at": "2026-08-17T14:18:25.395911+00:00",
   "skill_frequency": [
     [
       "aws",
       56
     ],
     [
-      "kubernetes",
-      24
+      "azure",
+      25
     ],
     [
-      "azure",
+      "kubernetes",
       24
     ],
     [
@@ -19,7 +19,7 @@
     ],
     [
       "google cloud",
-      17
+      18
     ],
     [
       "ci/cd",
@@ -31,7 +31,7 @@
     ],
     [
       "gcp",
-      14
+      13
     ],
     [
       "cloud security",
@@ -70,10 +70,6 @@
       6
     ],
     [
-      "vulnerability",
-      5
-    ],
-    [
       "incident response",
       4
     ],
@@ -90,6 +86,10 @@
       4
     ],
     [
+      "vulnerability",
+      4
+    ],
+    [
       "ec2",
       2
     ],
@@ -99,10 +99,6 @@
     ],
     [
       "github actions",
-      2
-    ],
-    [
-      "security analyst",
       2
     ],
     [
@@ -139,6 +135,10 @@
     ],
     [
       "cloud support",
+      1
+    ],
+    [
+      "security analyst",
       1
     ],
     [
