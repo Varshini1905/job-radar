@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-18T12:24:55.049618+00:00",
+  "updated_at": "2026-08-18T14:23:24.955469+00:00",
   "skill_frequency": [
     [
       "aws",
-      52
+      51
     ],
     [
       "kubernetes",
@@ -26,19 +26,19 @@
       16
     ],
     [
-      "cad",
-      12
-    ],
-    [
       "cloud security",
       12
     ],
     [
-      "gcp",
+      "cad",
       11
     ],
     [
       "cyber",
+      10
+    ],
+    [
+      "gcp",
       10
     ],
     [
@@ -78,11 +78,11 @@
       4
     ],
     [
-      "vulnerability",
-      4
+      "ansible",
+      3
     ],
     [
-      "ansible",
+      "vulnerability",
       3
     ],
     [
@@ -127,10 +127,6 @@
     ],
     [
       "cloud support",
-      1
-    ],
-    [
-      "security analyst",
       1
     ],
     [
