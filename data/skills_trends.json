@@ -1,40 +1,56 @@
 {
-  "updated_at": "2026-08-18T10:19:03.465835+00:00",
+  "updated_at": "2026-08-18T12:24:55.049618+00:00",
   "skill_frequency": [
     [
       "aws",
-      45
-    ],
-    [
-      "azure",
-      21
+      52
     ],
     [
       "kubernetes",
-      20
+      23
+    ],
+    [
+      "azure",
+      22
     ],
     [
       "google cloud",
       17
     ],
     [
-      "devops",
+      "ci/cd",
       16
     ],
     [
-      "ci/cd",
-      13
+      "devops",
+      16
     ],
     [
       "cad",
       12
     ],
     [
-      "cyber",
-      9
+      "cloud security",
+      12
     ],
     [
       "gcp",
+      11
+    ],
+    [
+      "cyber",
+      10
+    ],
+    [
+      "sre",
+      8
+    ],
+    [
+      "splunk",
+      8
+    ],
+    [
+      "s3",
       8
     ],
     [
@@ -42,20 +58,20 @@
       8
     ],
     [
-      "cloud security",
-      8
-    ],
-    [
       "docker",
       7
     ],
     [
-      "sre",
-      6
+      "site reliability",
+      5
     ],
     [
-      "splunk",
+      "terraform",
       5
+    ],
+    [
+      "incident response",
+      4
     ],
     [
       "csa",
@@ -70,12 +86,8 @@
       3
     ],
     [
-      "incident response",
-      2
-    ],
-    [
-      "site reliability",
-      2
+      "iam",
+      3
     ],
     [
       "cloud engineer",
@@ -86,11 +98,11 @@
       2
     ],
     [
-      "siem",
+      "security engineer",
       2
     ],
     [
-      "terraform",
+      "siem",
       2
     ],
     [
@@ -122,15 +134,15 @@
       1
     ],
     [
+      "ec2",
+      1
+    ],
+    [
       "cyber security",
       1
     ],
     [
       "network security",
-      1
-    ],
-    [
-      "s3",
       1
     ],
     [
