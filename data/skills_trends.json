@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-19T16:20:06.930542+00:00",
+  "updated_at": "2026-08-19T18:19:40.405091+00:00",
   "skill_frequency": [
     [
       "aws",
-      54
+      55
     ],
     [
       "kubernetes",
@@ -70,6 +70,10 @@
       5
     ],
     [
+      "iam",
+      4
+    ],
+    [
       "incident response",
       4
     ],
@@ -87,10 +91,6 @@
     ],
     [
       "vulnerability",
-      3
-    ],
-    [
-      "iam",
       3
     ],
     [
