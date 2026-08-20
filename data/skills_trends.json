@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-20T16:22:54.240020+00:00",
+  "updated_at": "2026-08-20T18:24:20.126903+00:00",
   "skill_frequency": [
     [
       "aws",
-      54
-    ],
-    [
-      "kubernetes",
-      23
+      55
     ],
     [
       "azure",
       23
     ],
     [
+      "kubernetes",
+      22
+    ],
+    [
       "devops",
-      18
+      17
     ],
     [
       "google cloud",
@@ -23,7 +23,7 @@
     ],
     [
       "ci/cd",
-      14
+      13
     ],
     [
       "gcp",
