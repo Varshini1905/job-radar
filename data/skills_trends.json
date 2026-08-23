@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T08:18:22.916350+00:00",
+  "updated_at": "2026-08-23T10:13:52.241398+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -50,15 +50,15 @@
       8
     ],
     [
-      "splunk",
-      8
-    ],
-    [
       "cybersecurity",
       8
     ],
     [
       "docker",
+      7
+    ],
+    [
+      "splunk",
       7
     ],
     [
@@ -86,16 +86,16 @@
       3
     ],
     [
-      "csa",
-      3
-    ],
-    [
       "vulnerability",
       3
     ],
     [
       "endpoint security",
       3
+    ],
+    [
+      "csa",
+      2
     ],
     [
       "cloud engineer",
@@ -131,10 +131,6 @@
     ],
     [
       "cloud support",
-      1
-    ],
-    [
-      "servicenow",
       1
     ],
     [
