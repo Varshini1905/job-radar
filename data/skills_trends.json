@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T22:15:57.729618+00:00",
+  "updated_at": "2026-08-25T00:41:20.619242+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -106,6 +106,10 @@
       2
     ],
     [
+      "servicenow",
+      2
+    ],
+    [
       "jenkins",
       2
     ],
@@ -127,10 +131,6 @@
     ],
     [
       "cloud support",
-      1
-    ],
-    [
-      "servicenow",
       1
     ],
     [
