@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-25T14:35:22.221222+00:00",
+  "updated_at": "2026-08-25T16:25:13.589431+00:00",
   "skill_frequency": [
     [
       "aws",
-      54
+      53
     ],
     [
       "azure",
@@ -34,11 +34,11 @@
       11
     ],
     [
-      "cyber",
-      10
+      "cad",
+      9
     ],
     [
-      "cad",
+      "cyber",
       9
     ],
     [
@@ -62,10 +62,6 @@
       7
     ],
     [
-      "incident response",
-      4
-    ],
-    [
       "site reliability",
       4
     ],
@@ -83,6 +79,10 @@
     ],
     [
       "ansible",
+      3
+    ],
+    [
+      "incident response",
       3
     ],
     [
@@ -116,10 +116,6 @@
     [
       "threat detection",
       2
-    ],
-    [
-      "iso 27001",
-      1
     ],
     [
       "malware",
