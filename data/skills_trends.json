@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T20:18:10.901940+00:00",
+  "updated_at": "2026-08-25T22:16:45.115018+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -11,7 +11,7 @@
     ],
     [
       "kubernetes",
-      20
+      22
     ],
     [
       "google cloud",
@@ -50,16 +50,16 @@
       8
     ],
     [
+      "docker",
+      7
+    ],
+    [
       "splunk",
       7
     ],
     [
       "s3",
       7
-    ],
-    [
-      "docker",
-      5
     ],
     [
       "site reliability",
