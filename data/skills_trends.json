@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T01:54:42.914694+00:00",
+  "updated_at": "2026-08-28T13:33:25.622545+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -35,7 +35,7 @@
     ],
     [
       "cad",
-      9
+      10
     ],
     [
       "s3",
@@ -66,11 +66,11 @@
       5
     ],
     [
-      "site reliability",
-      4
+      "siem",
+      5
     ],
     [
-      "siem",
+      "site reliability",
       4
     ],
     [
