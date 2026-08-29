@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T23:17:45.125828+00:00",
+  "updated_at": "2026-08-29T04:49:27.887363+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -42,11 +42,15 @@
       9
     ],
     [
+      "cyber",
+      9
+    ],
+    [
       "sre",
       8
     ],
     [
-      "cyber",
+      "cybersecurity",
       8
     ],
     [
@@ -55,10 +59,6 @@
     ],
     [
       "splunk",
-      7
-    ],
-    [
-      "cybersecurity",
       7
     ],
     [
@@ -131,6 +131,10 @@
     ],
     [
       "network security",
+      1
+    ],
+    [
+      "security operations",
       1
     ]
   ]
