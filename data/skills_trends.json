@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T02:22:54.177838+00:00",
+  "updated_at": "2026-08-31T10:16:19.530792+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -11,7 +11,7 @@
     ],
     [
       "kubernetes",
-      22
+      20
     ],
     [
       "devops",
@@ -54,12 +54,12 @@
       8
     ],
     [
-      "docker",
+      "splunk",
       7
     ],
     [
-      "splunk",
-      7
+      "docker",
+      5
     ],
     [
       "terraform",
