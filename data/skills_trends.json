@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-01T09:00:28.962725+00:00",
+  "updated_at": "2026-09-01T14:24:27.660445+00:00",
   "skill_frequency": [
     [
       "aws",
-      56
+      58
     ],
     [
       "azure",
@@ -30,11 +30,19 @@
       13
     ],
     [
+      "cloud security",
+      12
+    ],
+    [
+      "cyber",
+      11
+    ],
+    [
       "cad",
       10
     ],
     [
-      "cloud security",
+      "cybersecurity",
       10
     ],
     [
@@ -42,15 +50,7 @@
       9
     ],
     [
-      "cyber",
-      9
-    ],
-    [
       "sre",
-      8
-    ],
-    [
-      "cybersecurity",
       8
     ],
     [
