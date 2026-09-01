@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-01T19:00:18.770243+00:00",
+  "updated_at": "2026-09-01T22:11:31.893152+00:00",
   "skill_frequency": [
     [
       "aws",
-      66
+      62
     ],
     [
       "azure",
-      32
+      31
     ],
     [
       "kubernetes",
@@ -15,11 +15,11 @@
     ],
     [
       "gcp",
-      21
+      20
     ],
     [
       "devops",
-      17
+      16
     ],
     [
       "google cloud",
@@ -27,7 +27,7 @@
     ],
     [
       "ci/cd",
-      13
+      12
     ],
     [
       "cloud security",
@@ -46,11 +46,11 @@
       10
     ],
     [
-      "s3",
-      9
+      "sre",
+      8
     ],
     [
-      "sre",
+      "s3",
       8
     ],
     [
@@ -62,15 +62,15 @@
       7
     ],
     [
-      "terraform",
-      5
-    ],
-    [
       "siem",
       5
     ],
     [
       "site reliability",
+      4
+    ],
+    [
+      "terraform",
       4
     ],
     [
