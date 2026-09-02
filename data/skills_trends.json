@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T20:17:41.202632+00:00",
+  "updated_at": "2026-09-02T23:41:24.315293+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -26,12 +26,12 @@
       16
     ],
     [
-      "gcp",
-      14
+      "cloud security",
+      15
     ],
     [
-      "cloud security",
-      13
+      "gcp",
+      14
     ],
     [
       "cyber",
@@ -39,10 +39,6 @@
     ],
     [
       "cad",
-      11
-    ],
-    [
-      "cybersecurity",
       11
     ],
     [
@@ -91,6 +87,10 @@
     ],
     [
       "vulnerability",
+      3
+    ],
+    [
+      "cybersecurity",
       3
     ],
     [
