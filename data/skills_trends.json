@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-02T17:34:51.752634+00:00",
+  "updated_at": "2026-09-02T20:17:41.202632+00:00",
   "skill_frequency": [
     [
       "aws",
-      60
+      61
+    ],
+    [
+      "kubernetes",
+      26
     ],
     [
       "azure",
       26
-    ],
-    [
-      "kubernetes",
-      23
     ],
     [
       "devops",
@@ -22,27 +22,31 @@
       16
     ],
     [
+      "ci/cd",
+      16
+    ],
+    [
       "gcp",
       14
     ],
     [
-      "ci/cd",
+      "cloud security",
       13
     ],
     [
-      "cloud security",
+      "cyber",
       12
     ],
     [
-      "cyber",
+      "cad",
       11
     ],
     [
-      "cad",
-      10
+      "cybersecurity",
+      11
     ],
     [
-      "cybersecurity",
+      "docker",
       10
     ],
     [
@@ -52,10 +56,6 @@
     [
       "sre",
       8
-    ],
-    [
-      "docker",
-      7
     ],
     [
       "splunk",
