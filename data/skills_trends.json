@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T13:57:38.838151+00:00",
+  "updated_at": "2026-09-02T17:34:51.752634+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -7,19 +7,19 @@
     ],
     [
       "azure",
-      25
+      26
     ],
     [
       "kubernetes",
-      22
+      23
     ],
     [
       "devops",
-      17
+      18
     ],
     [
       "google cloud",
-      15
+      16
     ],
     [
       "gcp",
@@ -74,15 +74,15 @@
       4
     ],
     [
-      "incident response",
-      4
-    ],
-    [
       "iam",
       3
     ],
     [
       "ansible",
+      3
+    ],
+    [
+      "incident response",
       3
     ],
     [
