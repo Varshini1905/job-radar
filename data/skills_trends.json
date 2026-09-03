@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T13:59:28.354250+00:00",
+  "updated_at": "2026-09-03T17:36:30.110344+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -82,10 +82,6 @@
       3
     ],
     [
-      "csa",
-      3
-    ],
-    [
       "vulnerability",
       3
     ],
@@ -96,6 +92,10 @@
     [
       "endpoint security",
       3
+    ],
+    [
+      "csa",
+      2
     ],
     [
       "cloud engineer",
