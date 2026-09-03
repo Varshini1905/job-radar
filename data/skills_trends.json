@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-03T08:23:43.599984+00:00",
+  "updated_at": "2026-09-03T13:59:28.354250+00:00",
   "skill_frequency": [
     [
       "aws",
-      61
+      62
     ],
     [
       "kubernetes",
-      27
+      28
     ],
     [
       "azure",
@@ -15,11 +15,11 @@
     ],
     [
       "devops",
-      18
+      19
     ],
     [
       "ci/cd",
-      17
+      18
     ],
     [
       "google cloud",
@@ -43,7 +43,7 @@
     ],
     [
       "docker",
-      11
+      12
     ],
     [
       "s3",
@@ -59,26 +59,26 @@
     ],
     [
       "terraform",
-      5
+      6
     ],
     [
       "siem",
       5
     ],
     [
+      "ansible",
+      4
+    ],
+    [
       "site reliability",
       4
     ],
     [
-      "iam",
-      3
-    ],
-    [
-      "ansible",
-      3
-    ],
-    [
       "incident response",
+      4
+    ],
+    [
+      "iam",
       3
     ],
     [
