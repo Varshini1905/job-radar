@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-08T13:59:36.247647+00:00",
+  "updated_at": "2026-09-08T17:48:48.786392+00:00",
   "skill_frequency": [
     [
       "aws",
-      60
+      61
     ],
     [
       "kubernetes",
@@ -22,11 +22,11 @@
       17
     ],
     [
-      "google cloud",
-      15
+      "cloud security",
+      16
     ],
     [
-      "cloud security",
+      "google cloud",
       15
     ],
     [
@@ -34,15 +34,15 @@
       14
     ],
     [
+      "cyber",
+      13
+    ],
+    [
       "docker",
       12
     ],
     [
       "gcp",
-      12
-    ],
-    [
-      "cyber",
       12
     ],
     [
