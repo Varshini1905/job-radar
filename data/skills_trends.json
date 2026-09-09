@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-09T02:10:51.013298+00:00",
+  "updated_at": "2026-09-09T08:28:40.923582+00:00",
   "skill_frequency": [
     [
       "aws",
-      75
+      77
     ],
     [
       "kubernetes",
@@ -22,11 +22,11 @@
       17
     ],
     [
-      "cad",
-      16
+      "cloud security",
+      17
     ],
     [
-      "cloud security",
+      "cad",
       16
     ],
     [
@@ -34,11 +34,11 @@
       15
     ],
     [
-      "gcp",
-      13
+      "cyber",
+      15
     ],
     [
-      "cyber",
+      "gcp",
       13
     ],
     [
@@ -70,19 +70,19 @@
       4
     ],
     [
-      "site reliability",
-      4
-    ],
-    [
-      "incident response",
-      4
-    ],
-    [
       "iam",
       3
     ],
     [
+      "site reliability",
+      3
+    ],
+    [
       "vulnerability",
+      3
+    ],
+    [
+      "incident response",
       3
     ],
     [
@@ -106,6 +106,10 @@
       2
     ],
     [
+      "network security",
+      2
+    ],
+    [
       "jenkins",
       2
     ],
@@ -126,11 +130,11 @@
       1
     ],
     [
-      "cyber security",
+      "firewall",
       1
     ],
     [
-      "network security",
+      "cyber security",
       1
     ],
     [
