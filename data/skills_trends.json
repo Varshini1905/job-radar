@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-09T08:28:40.923582+00:00",
+  "updated_at": "2026-09-09T14:02:22.619018+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      82
     ],
     [
       "kubernetes",
@@ -11,14 +11,14 @@
     ],
     [
       "azure",
-      24
-    ],
-    [
-      "ci/cd",
-      17
+      25
     ],
     [
       "devops",
+      18
+    ],
+    [
+      "ci/cd",
       17
     ],
     [
@@ -26,20 +26,20 @@
       17
     ],
     [
+      "google cloud",
+      16
+    ],
+    [
+      "cyber",
+      16
+    ],
+    [
       "cad",
       16
     ],
     [
-      "google cloud",
-      15
-    ],
-    [
-      "cyber",
-      15
-    ],
-    [
       "gcp",
-      13
+      14
     ],
     [
       "docker",
@@ -47,11 +47,15 @@
     ],
     [
       "s3",
-      8
+      9
     ],
     [
       "sre",
       7
+    ],
+    [
+      "siem",
+      6
     ],
     [
       "splunk",
@@ -62,11 +66,11 @@
       5
     ],
     [
-      "siem",
-      5
+      "ansible",
+      4
     ],
     [
-      "ansible",
+      "incident response",
       4
     ],
     [
@@ -82,10 +86,6 @@
       3
     ],
     [
-      "incident response",
-      3
-    ],
-    [
       "cybersecurity",
       3
     ],
@@ -95,6 +95,14 @@
     ],
     [
       "csa",
+      2
+    ],
+    [
+      "security engineer",
+      2
+    ],
+    [
+      "security operations",
       2
     ],
     [
@@ -126,19 +134,11 @@
       1
     ],
     [
-      "security engineer",
-      1
-    ],
-    [
       "firewall",
       1
     ],
     [
       "cyber security",
-      1
-    ],
-    [
-      "security operations",
       1
     ]
   ]
