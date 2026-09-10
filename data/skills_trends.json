@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-10T08:30:22.292512+00:00",
+  "updated_at": "2026-09-10T13:57:41.999749+00:00",
   "skill_frequency": [
     [
       "aws",
-      81
+      83
     ],
     [
       "kubernetes",
@@ -54,11 +54,11 @@
       7
     ],
     [
-      "splunk",
-      6
+      "siem",
+      5
     ],
     [
-      "siem",
+      "splunk",
       5
     ],
     [
@@ -82,10 +82,6 @@
       3
     ],
     [
-      "csa",
-      3
-    ],
-    [
       "vulnerability",
       3
     ],
@@ -94,15 +90,15 @@
       3
     ],
     [
+      "csa",
+      2
+    ],
+    [
       "security engineer",
       2
     ],
     [
       "github actions",
-      2
-    ],
-    [
-      "servicenow",
       2
     ],
     [
