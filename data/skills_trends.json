@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T22:06:26.662539+00:00",
+  "updated_at": "2026-09-10T02:08:36.177724+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -7,15 +7,23 @@
     ],
     [
       "kubernetes",
+      28
+    ],
+    [
+      "cad",
       27
     ],
     [
       "azure",
-      25
+      26
     ],
     [
       "devops",
       18
+    ],
+    [
+      "google cloud",
+      17
     ],
     [
       "ci/cd",
@@ -23,14 +31,6 @@
     ],
     [
       "cloud security",
-      17
-    ],
-    [
-      "google cloud",
-      16
-    ],
-    [
-      "cyber",
       16
     ],
     [
@@ -38,7 +38,7 @@
       14
     ],
     [
-      "cad",
+      "cyber",
       14
     ],
     [
@@ -82,11 +82,11 @@
       3
     ],
     [
-      "vulnerability",
+      "csa",
       3
     ],
     [
-      "cybersecurity",
+      "vulnerability",
       3
     ],
     [
@@ -94,15 +94,7 @@
       3
     ],
     [
-      "csa",
-      2
-    ],
-    [
       "security engineer",
-      2
-    ],
-    [
-      "security operations",
       2
     ],
     [
@@ -111,6 +103,10 @@
     ],
     [
       "servicenow",
+      2
+    ],
+    [
+      "cybersecurity",
       2
     ],
     [
@@ -126,6 +122,10 @@
       2
     ],
     [
+      "security operations",
+      1
+    ],
+    [
       "cloud support",
       1
     ],
@@ -139,6 +139,10 @@
     ],
     [
       "cyber security",
+      1
+    ],
+    [
+      "information security",
       1
     ]
   ]
