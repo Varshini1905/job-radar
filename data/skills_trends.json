@@ -1,21 +1,17 @@
 {
-  "updated_at": "2026-09-13T17:18:37.057214+00:00",
+  "updated_at": "2026-09-13T20:00:38.891413+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      76
     ],
     [
       "kubernetes",
-      27
+      26
     ],
     [
       "azure",
       23
-    ],
-    [
-      "ci/cd",
-      17
     ],
     [
       "cad",
@@ -26,20 +22,24 @@
       16
     ],
     [
-      "cloud security",
+      "ci/cd",
       16
     ],
     [
-      "devops",
-      15
+      "cloud security",
+      16
     ],
     [
       "cyber",
       14
     ],
     [
+      "devops",
+      14
+    ],
+    [
       "docker",
-      11
+      10
     ],
     [
       "gcp",
@@ -55,7 +55,7 @@
     ],
     [
       "terraform",
-      6
+      5
     ],
     [
       "splunk",
@@ -63,11 +63,7 @@
     ],
     [
       "ansible",
-      4
-    ],
-    [
-      "incident response",
-      4
+      3
     ],
     [
       "site reliability",
@@ -75,6 +71,10 @@
     ],
     [
       "csa",
+      3
+    ],
+    [
+      "incident response",
       3
     ],
     [
