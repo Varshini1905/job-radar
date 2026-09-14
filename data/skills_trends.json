@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-14T09:23:16.584877+00:00",
+  "updated_at": "2026-09-14T16:03:46.411227+00:00",
   "skill_frequency": [
     [
       "aws",
-      71
+      73
     ],
     [
       "kubernetes",
-      24
+      27
     ],
     [
       "azure",
-      21
+      23
     ],
     [
       "ci/cd",
@@ -26,39 +26,47 @@
       16
     ],
     [
+      "devops",
+      15
+    ],
+    [
+      "cloud security",
+      15
+    ],
+    [
       "cyber",
       13
     ],
     [
-      "cloud security",
-      13
+      "docker",
+      11
     ],
     [
-      "devops",
-      12
+      "gcp",
+      10
     ],
     [
       "s3",
       10
     ],
     [
-      "docker",
-      9
-    ],
-    [
-      "gcp",
-      8
-    ],
-    [
       "sre",
-      5
-    ],
-    [
-      "incident response",
-      4
+      6
     ],
     [
       "terraform",
+      6
+    ],
+    [
+      "splunk",
+      5
+    ],
+    [
+      "ansible",
+      4
+    ],
+    [
+      "incident response",
       4
     ],
     [
@@ -70,7 +78,7 @@
       3
     ],
     [
-      "splunk",
+      "vulnerability",
       3
     ],
     [
@@ -78,7 +86,7 @@
       3
     ],
     [
-      "ansible",
+      "siem",
       2
     ],
     [
@@ -98,8 +106,12 @@
       2
     ],
     [
-      "siem",
-      1
+      "jenkins",
+      2
+    ],
+    [
+      "threat detection",
+      2
     ],
     [
       "security operations",
@@ -107,10 +119,6 @@
     ],
     [
       "cloud support",
-      1
-    ],
-    [
-      "vulnerability",
       1
     ],
     [
