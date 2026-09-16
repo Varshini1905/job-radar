@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T02:24:07.289414+00:00",
+  "updated_at": "2026-09-16T08:56:38.804015+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -54,15 +54,7 @@
       4
     ],
     [
-      "csa",
-      3
-    ],
-    [
       "sre",
-      3
-    ],
-    [
-      "splunk",
       3
     ],
     [
@@ -72,6 +64,10 @@
     [
       "ansible",
       3
+    ],
+    [
+      "csa",
+      2
     ],
     [
       "information security",
@@ -95,6 +91,10 @@
     ],
     [
       "network security",
+      2
+    ],
+    [
+      "splunk",
       2
     ],
     [
