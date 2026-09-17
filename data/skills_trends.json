@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-17T09:01:12.390259+00:00",
+  "updated_at": "2026-09-17T14:32:23.429670+00:00",
   "skill_frequency": [
     [
       "aws",
-      63
+      64
     ],
     [
       "kubernetes",
-      24
+      23
     ],
     [
       "azure",
-      20
+      19
     ],
     [
       "cad",
-      16
+      15
     ],
     [
       "cyber",
@@ -23,10 +23,6 @@
     ],
     [
       "devops",
-      14
-    ],
-    [
-      "google cloud",
       13
     ],
     [
@@ -38,12 +34,16 @@
       12
     ],
     [
+      "google cloud",
+      12
+    ],
+    [
       "docker",
       10
     ],
     [
       "gcp",
-      7
+      8
     ],
     [
       "s3",
@@ -86,10 +86,6 @@
       2
     ],
     [
-      "servicenow",
-      2
-    ],
-    [
       "network security",
       2
     ],
@@ -111,6 +107,10 @@
     ],
     [
       "cloud support",
+      1
+    ],
+    [
+      "servicenow",
       1
     ],
     [
