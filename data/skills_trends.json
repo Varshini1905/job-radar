@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-18T13:59:07.426890+00:00",
+  "updated_at": "2026-09-18T17:33:16.167583+00:00",
   "skill_frequency": [
     [
       "aws",
-      64
+      59
     ],
     [
       "kubernetes",
@@ -11,30 +11,30 @@
     ],
     [
       "azure",
-      19
+      15
     ],
     [
       "cad",
       15
     ],
     [
-      "cyber",
-      14
-    ],
-    [
       "devops",
       14
     ],
     [
-      "cloud security",
-      14
+      "cyber",
+      13
     ],
     [
-      "google cloud",
-      12
+      "cloud security",
+      13
     ],
     [
       "ci/cd",
+      11
+    ],
+    [
+      "google cloud",
       11
     ],
     [
@@ -43,7 +43,7 @@
     ],
     [
       "gcp",
-      9
+      6
     ],
     [
       "s3",
