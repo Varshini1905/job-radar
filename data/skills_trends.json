@@ -1,25 +1,29 @@
 {
-  "updated_at": "2026-09-25T09:12:23.096593+00:00",
+  "updated_at": "2026-09-25T14:52:00.878014+00:00",
   "skill_frequency": [
     [
       "aws",
-      68
+      70
     ],
     [
       "kubernetes",
-      23
+      24
     ],
     [
       "azure",
-      21
+      22
     ],
     [
       "devops",
-      18
+      19
     ],
     [
       "cad",
       18
+    ],
+    [
+      "google cloud",
+      13
     ],
     [
       "docker",
@@ -31,10 +35,6 @@
     ],
     [
       "cloud security",
-      12
-    ],
-    [
-      "google cloud",
       12
     ],
     [
@@ -70,6 +70,10 @@
       4
     ],
     [
+      "siem",
+      3
+    ],
+    [
       "incident response",
       3
     ],
@@ -86,15 +90,15 @@
       2
     ],
     [
-      "siem",
-      2
-    ],
-    [
       "security engineer",
       2
     ],
     [
       "iam",
+      2
+    ],
+    [
+      "ceh",
       2
     ],
     [
@@ -115,10 +119,6 @@
     ],
     [
       "firewall",
-      1
-    ],
-    [
-      "ceh",
       1
     ]
   ]
