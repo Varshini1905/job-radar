@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-28T16:28:43.356259+00:00",
+  "updated_at": "2026-09-28T22:45:48.413645+00:00",
   "skill_frequency": [
     [
       "aws",
-      75
+      73
     ],
     [
       "kubernetes",
-      25
+      24
     ],
     [
       "azure",
-      25
+      24
     ],
     [
       "cad",
-      21
+      20
     ],
     [
       "devops",
@@ -30,19 +30,19 @@
       14
     ],
     [
-      "cyber",
-      13
-    ],
-    [
-      "cloud security",
-      13
-    ],
-    [
       "gcp",
       12
     ],
     [
       "ci/cd",
+      11
+    ],
+    [
+      "cyber",
+      11
+    ],
+    [
+      "cloud security",
       11
     ],
     [
@@ -55,7 +55,7 @@
     ],
     [
       "s3",
-      6
+      5
     ],
     [
       "sre",
@@ -90,10 +90,6 @@
       2
     ],
     [
-      "security engineer",
-      2
-    ],
-    [
       "iam",
       2
     ],
@@ -112,6 +108,10 @@
     [
       "threat detection",
       2
+    ],
+    [
+      "security engineer",
+      1
     ],
     [
       "security operations",
