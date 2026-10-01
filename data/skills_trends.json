@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-30T20:24:39.683786+00:00",
+  "updated_at": "2026-10-01T00:55:04.285062+00:00",
   "skill_frequency": [
     [
       "aws",
-      70
+      75
     ],
     [
       "azure",
@@ -12,6 +12,10 @@
     [
       "kubernetes",
       24
+    ],
+    [
+      "cad",
+      21
     ],
     [
       "devops",
@@ -30,12 +34,8 @@
       13
     ],
     [
-      "cad",
-      11
-    ],
-    [
       "ci/cd",
-      10
+      12
     ],
     [
       "cyber",
@@ -103,6 +103,10 @@
     ],
     [
       "security operations",
+      1
+    ],
+    [
+      "vulnerability",
       1
     ],
     [
