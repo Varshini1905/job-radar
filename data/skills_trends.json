@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-01T16:47:41.517810+00:00",
+  "updated_at": "2026-10-01T22:07:51.976238+00:00",
   "skill_frequency": [
     [
       "aws",
-      66
+      73
     ],
     [
       "azure",
@@ -36,6 +36,14 @@
     [
       "ci/cd",
       12
+    ],
+    [
+      "cyber",
+      9
+    ],
+    [
+      "cloud security",
+      8
     ],
     [
       "s3",
@@ -78,10 +86,6 @@
       2
     ],
     [
-      "cyber",
-      2
-    ],
-    [
       "github actions",
       2
     ],
@@ -106,11 +110,15 @@
       1
     ],
     [
-      "cloud security",
+      "site reliability",
       1
     ],
     [
-      "site reliability",
+      "cybersecurity",
+      1
+    ],
+    [
+      "network security",
       1
     ]
   ]
