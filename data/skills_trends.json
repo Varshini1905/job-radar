@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-02T03:10:15.356973+00:00",
+  "updated_at": "2026-10-02T10:09:10.152241+00:00",
   "skill_frequency": [
     [
       "aws",
-      73
+      76
     ],
     [
       "azure",
@@ -15,7 +15,7 @@
     ],
     [
       "cad",
-      21
+      20
     ],
     [
       "devops",
@@ -35,19 +35,19 @@
     ],
     [
       "ci/cd",
-      12
+      11
     ],
     [
       "cyber",
       9
     ],
     [
-      "cloud security",
-      8
+      "s3",
+      9
     ],
     [
-      "s3",
-      6
+      "cloud security",
+      8
     ],
     [
       "terraform",
