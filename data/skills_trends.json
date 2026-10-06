@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-06T03:53:10.137409+00:00",
+  "updated_at": "2026-10-06T10:55:11.941873+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      78
     ],
     [
       "kubernetes",
-      24
+      25
     ],
     [
       "azure",
-      23
+      24
     ],
     [
       "devops",
-      19
+      20
     ],
     [
       "cad",
@@ -27,15 +27,15 @@
     ],
     [
       "docker",
-      15
+      16
     ],
     [
       "gcp",
-      12
+      13
     ],
     [
       "ci/cd",
-      11
+      12
     ],
     [
       "cyber",
@@ -51,7 +51,7 @@
     ],
     [
       "terraform",
-      6
+      7
     ],
     [
       "splunk",
@@ -71,6 +71,10 @@
     ],
     [
       "incident response",
+      3
+    ],
+    [
+      "iam",
       3
     ],
     [
@@ -94,15 +98,19 @@
       2
     ],
     [
-      "iam",
-      2
-    ],
-    [
       "security engineer",
       1
     ],
     [
       "security operations",
+      1
+    ],
+    [
+      "vpc",
+      1
+    ],
+    [
+      "servicenow",
       1
     ],
     [
