@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-09T16:42:44.032081+00:00",
+  "updated_at": "2026-10-09T22:00:46.825929+00:00",
   "skill_frequency": [
     [
       "aws",
-      75
+      76
     ],
     [
       "kubernetes",
@@ -19,7 +19,7 @@
     ],
     [
       "cad",
-      17
+      18
     ],
     [
       "docker",
@@ -31,15 +31,15 @@
     ],
     [
       "cyber",
-      12
+      11
     ],
     [
       "gcp",
-      11
+      10
     ],
     [
       "ci/cd",
-      11
+      10
     ],
     [
       "s3",
@@ -47,15 +47,15 @@
     ],
     [
       "cloud security",
-      10
+      9
     ],
     [
       "terraform",
-      7
+      8
     ],
     [
       "ansible",
-      5
+      6
     ],
     [
       "sre",
@@ -83,10 +83,6 @@
     ],
     [
       "csa",
-      2
-    ],
-    [
-      "information security",
       2
     ],
     [
@@ -123,6 +119,10 @@
     ],
     [
       "network security",
+      1
+    ],
+    [
+      "information security",
       1
     ]
   ]
