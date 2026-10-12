@@ -1,44 +1,36 @@
 {
-  "updated_at": "2026-10-12T00:50:10.536730+00:00",
+  "updated_at": "2026-10-12T08:17:39.208922+00:00",
   "skill_frequency": [
     [
       "aws",
-      78
+      76
     ],
     [
       "kubernetes",
-      24
+      23
     ],
     [
       "devops",
-      24
+      23
     ],
     [
       "azure",
-      21
+      20
     ],
     [
       "cad",
       19
     ],
     [
-      "docker",
-      15
-    ],
-    [
       "google cloud",
       15
     ],
     [
+      "docker",
+      14
+    ],
+    [
       "cyber",
-      11
-    ],
-    [
-      "gcp",
-      10
-    ],
-    [
-      "ci/cd",
       10
     ],
     [
@@ -46,12 +38,20 @@
       10
     ],
     [
-      "cloud security",
+      "gcp",
       9
     ],
     [
-      "terraform",
+      "ci/cd",
+      9
+    ],
+    [
+      "cloud security",
       8
+    ],
+    [
+      "terraform",
+      7
     ],
     [
       "ansible",
@@ -74,10 +74,6 @@
       3
     ],
     [
-      "iam",
-      3
-    ],
-    [
       "jenkins",
       3
     ],
@@ -90,19 +86,15 @@
       2
     ],
     [
+      "iam",
+      2
+    ],
+    [
       "security engineer",
       1
     ],
     [
       "security operations",
-      1
-    ],
-    [
-      "vpc",
-      1
-    ],
-    [
-      "servicenow",
       1
     ],
     [
