@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-13T17:15:08.004371+00:00",
+  "updated_at": "2026-10-13T22:05:49.832056+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      79
     ],
     [
       "kubernetes",
-      23
+      24
     ],
     [
       "devops",
@@ -15,7 +15,7 @@
     ],
     [
       "azure",
-      20
+      21
     ],
     [
       "cad",
@@ -23,7 +23,7 @@
     ],
     [
       "google cloud",
-      15
+      16
     ],
     [
       "s3",
@@ -58,16 +58,16 @@
       6
     ],
     [
+      "incident response",
+      4
+    ],
+    [
       "sre",
       4
     ],
     [
       "splunk",
       4
-    ],
-    [
-      "incident response",
-      3
     ],
     [
       "jenkins",
