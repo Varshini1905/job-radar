@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-13T22:05:49.832056+00:00",
+  "updated_at": "2026-10-14T02:44:32.896886+00:00",
   "skill_frequency": [
     [
       "aws",
       79
     ],
     [
-      "kubernetes",
+      "devops",
       24
     ],
     [
-      "devops",
-      23
+      "kubernetes",
+      22
     ],
     [
       "azure",
@@ -19,7 +19,7 @@
     ],
     [
       "cad",
-      19
+      20
     ],
     [
       "google cloud",
@@ -31,10 +31,6 @@
     ],
     [
       "gcp",
-      9
-    ],
-    [
-      "docker",
       9
     ],
     [
@@ -51,6 +47,10 @@
     ],
     [
       "terraform",
+      7
+    ],
+    [
+      "docker",
       7
     ],
     [
