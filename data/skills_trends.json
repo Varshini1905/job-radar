@@ -1,29 +1,33 @@
 {
-  "updated_at": "2026-10-14T22:51:17.584436+00:00",
+  "updated_at": "2026-10-15T02:23:42.361469+00:00",
   "skill_frequency": [
     [
       "aws",
-      79
+      77
     ],
     [
       "kubernetes",
-      24
-    ],
-    [
-      "azure",
-      21
+      22
     ],
     [
       "cad",
       20
     ],
     [
+      "azure",
+      19
+    ],
+    [
       "devops",
-      18
+      16
     ],
     [
       "google cloud",
-      16
+      14
+    ],
+    [
+      "cyber",
+      10
     ],
     [
       "s3",
@@ -35,10 +39,6 @@
     ],
     [
       "docker",
-      9
-    ],
-    [
-      "cyber",
       9
     ],
     [
@@ -62,10 +62,6 @@
       4
     ],
     [
-      "sre",
-      4
-    ],
-    [
       "splunk",
       4
     ],
@@ -86,6 +82,14 @@
       2
     ],
     [
+      "sre",
+      2
+    ],
+    [
+      "cybersecurity",
+      2
+    ],
+    [
       "security engineer",
       1
     ],
@@ -102,15 +106,15 @@
       1
     ],
     [
-      "cybersecurity",
-      1
-    ],
-    [
       "network security",
       1
     ],
     [
       "csa",
+      1
+    ],
+    [
+      "information security",
       1
     ]
   ]
