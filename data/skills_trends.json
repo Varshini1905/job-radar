@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-16T14:24:58.763431+00:00",
+  "updated_at": "2026-10-16T19:08:09.800148+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      81
     ],
     [
       "kubernetes",
-      21
+      24
     ],
     [
       "azure",
@@ -26,8 +26,12 @@
       15
     ],
     [
+      "s3",
+      13
+    ],
+    [
       "ci/cd",
-      11
+      12
     ],
     [
       "cyber",
@@ -42,16 +46,12 @@
       10
     ],
     [
-      "s3",
+      "docker",
       9
     ],
     [
       "cloud security",
       9
-    ],
-    [
-      "docker",
-      7
     ],
     [
       "ansible",
@@ -103,6 +103,10 @@
     ],
     [
       "security operations",
+      1
+    ],
+    [
+      "firewall",
       1
     ],
     [
