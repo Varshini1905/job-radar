@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:36:17.850492+00:00",
+  "updated_at": "2026-10-16T14:24:58.763431+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -7,7 +7,7 @@
     ],
     [
       "kubernetes",
-      23
+      21
     ],
     [
       "azure",
@@ -19,7 +19,7 @@
     ],
     [
       "devops",
-      16
+      17
     ],
     [
       "google cloud",
@@ -42,16 +42,16 @@
       10
     ],
     [
-      "docker",
-      9
-    ],
-    [
       "s3",
       9
     ],
     [
       "cloud security",
       9
+    ],
+    [
+      "docker",
+      7
     ],
     [
       "ansible",
