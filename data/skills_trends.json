@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-21T14:46:01.820466+00:00",
+  "updated_at": "2026-10-21T19:46:58.467550+00:00",
   "skill_frequency": [
     [
       "aws",
-      80
+      79
     ],
     [
       "kubernetes",
@@ -35,14 +35,10 @@
     ],
     [
       "cyber",
-      11
+      10
     ],
     [
       "docker",
-      9
-    ],
-    [
-      "cloud security",
       9
     ],
     [
@@ -51,6 +47,10 @@
     ],
     [
       "terraform",
+      8
+    ],
+    [
+      "cloud security",
       8
     ],
     [
