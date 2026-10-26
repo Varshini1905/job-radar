@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-26T09:30:00.411317+00:00",
+  "updated_at": "2026-10-26T16:22:37.855370+00:00",
   "skill_frequency": [
     [
       "aws",
-      77
+      78
     ],
     [
       "kubernetes",
-      20
+      22
     ],
     [
       "devops",
@@ -31,10 +31,18 @@
     ],
     [
       "cyber",
-      10
+      11
+    ],
+    [
+      "docker",
+      9
     ],
     [
       "google cloud",
+      9
+    ],
+    [
+      "cloud security",
       9
     ],
     [
@@ -44,14 +52,6 @@
     [
       "terraform",
       8
-    ],
-    [
-      "cloud security",
-      8
-    ],
-    [
-      "docker",
-      7
     ],
     [
       "ansible",
