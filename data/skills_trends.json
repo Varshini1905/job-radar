@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28T14:41:50.074492+00:00",
+  "updated_at": "2026-10-28T20:41:14.036971+00:00",
   "skill_frequency": [
     [
       "aws",
-      78
+      77
     ],
     [
       "kubernetes",
-      22
+      19
     ],
     [
       "s3",
@@ -15,50 +15,46 @@
     ],
     [
       "devops",
-      17
+      14
     ],
     [
       "azure",
-      15
+      13
+    ],
+    [
+      "cad",
+      12
     ],
     [
       "ci/cd",
       11
     ],
     [
-      "cad",
-      11
+      "google cloud",
+      10
     ],
     [
       "cyber",
       10
     ],
     [
-      "docker",
-      9
-    ],
-    [
-      "google cloud",
-      9
-    ],
-    [
       "cloud security",
       9
     ],
     [
+      "docker",
+      6
+    ],
+    [
       "terraform",
-      8
+      5
     ],
     [
       "gcp",
-      7
+      4
     ],
     [
       "ansible",
-      7
-    ],
-    [
-      "splunk",
       4
     ],
     [
@@ -70,8 +66,8 @@
       3
     ],
     [
-      "jenkins",
-      3
+      "site reliability",
+      2
     ],
     [
       "vulnerability",
@@ -110,7 +106,7 @@
       1
     ],
     [
-      "site reliability",
+      "splunk",
       1
     ],
     [
