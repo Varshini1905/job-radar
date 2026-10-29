@@ -1,17 +1,21 @@
 {
-  "updated_at": "2026-10-29T14:46:37.862495+00:00",
+  "updated_at": "2026-10-29T20:44:38.615504+00:00",
   "skill_frequency": [
     [
       "aws",
-      75
+      78
     ],
     [
       "kubernetes",
-      17
+      20
     ],
     [
       "s3",
       17
+    ],
+    [
+      "cad",
+      13
     ],
     [
       "azure",
@@ -22,11 +26,11 @@
       13
     ],
     [
-      "cad",
+      "ci/cd",
       12
     ],
     [
-      "ci/cd",
+      "cyber",
       11
     ],
     [
@@ -34,12 +38,12 @@
       10
     ],
     [
-      "cyber",
+      "cloud security",
       10
     ],
     [
-      "cloud security",
-      9
+      "docker",
+      7
     ],
     [
       "terraform",
@@ -47,10 +51,6 @@
     ],
     [
       "gcp",
-      4
-    ],
-    [
-      "docker",
       4
     ],
     [
