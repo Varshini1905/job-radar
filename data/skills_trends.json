@@ -1,13 +1,17 @@
 {
-  "updated_at": "2026-11-03T08:50:08.717807+00:00",
+  "updated_at": "2026-11-03T17:25:54.977188+00:00",
   "skill_frequency": [
     [
       "aws",
-      103
+      104
     ],
     [
       "kubernetes",
       22
+    ],
+    [
+      "ci/cd",
+      14
     ],
     [
       "devops",
@@ -15,10 +19,6 @@
     ],
     [
       "azure",
-      13
-    ],
-    [
-      "ci/cd",
       13
     ],
     [
@@ -39,19 +39,19 @@
     ],
     [
       "google cloud",
-      11
+      12
+    ],
+    [
+      "terraform",
+      8
     ],
     [
       "docker",
       8
     ],
     [
-      "terraform",
-      7
-    ],
-    [
       "gcp",
-      6
+      7
     ],
     [
       "ansible",
@@ -59,7 +59,7 @@
     ],
     [
       "incident response",
-      4
+      5
     ],
     [
       "iam",
@@ -70,11 +70,15 @@
       3
     ],
     [
+      "vulnerability",
+      3
+    ],
+    [
       "sre",
       3
     ],
     [
-      "vulnerability",
+      "penetration testing",
       2
     ],
     [
@@ -98,11 +102,11 @@
       2
     ],
     [
-      "penetration testing",
+      "threat intelligence",
       1
     ],
     [
-      "threat intelligence",
+      "malware",
       1
     ],
     [
