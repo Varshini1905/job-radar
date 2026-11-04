@@ -1,13 +1,25 @@
 {
-  "updated_at": "2026-11-03T22:41:43.917047+00:00",
+  "updated_at": "2026-11-04T03:56:26.599446+00:00",
   "skill_frequency": [
     [
       "aws",
-      105
+      108
     ],
     [
       "kubernetes",
-      22
+      21
+    ],
+    [
+      "cloud security",
+      15
+    ],
+    [
+      "cyber",
+      15
+    ],
+    [
+      "cad",
+      14
     ],
     [
       "ci/cd",
@@ -22,20 +34,8 @@
       13
     ],
     [
-      "cloud security",
-      13
-    ],
-    [
       "s3",
       13
-    ],
-    [
-      "cyber",
-      13
-    ],
-    [
-      "cad",
-      12
     ],
     [
       "google cloud",
@@ -62,15 +62,15 @@
       5
     ],
     [
-      "iam",
-      4
-    ],
-    [
       "site reliability",
       3
     ],
     [
       "vulnerability",
+      3
+    ],
+    [
+      "iam",
       3
     ],
     [
@@ -119,6 +119,10 @@
     ],
     [
       "network security",
+      1
+    ],
+    [
+      "csa",
       1
     ]
   ]
