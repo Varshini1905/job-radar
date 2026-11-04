@@ -84,12 +84,16 @@
   "gh_coinbase_8337064",
   "gh_coinbase_8337144",
   "gh_coinbase_8337149",
+  "gh_coinbase_8337152",
+  "gh_coinbase_8337157",
+  "gh_coinbase_8337162",
   "gh_coinbase_8337203",
   "gh_coinbase_8346064",
   "gh_coinbase_8346070",
   "gh_coinbase_8346073",
   "gh_coinbase_8350017",
   "gh_coinbase_8350362",
+  "gh_coinbase_8352329",
   "gh_databricks_8015848002",
   "gh_databricks_8099751002",
   "gh_databricks_8298792002",
@@ -300,5 +304,6 @@
   "rok_1137429",
   "rok_1137461",
   "rok_1137465",
-  "rok_1137512"
+  "rok_1137512",
+  "rok_1137673"
 ]
