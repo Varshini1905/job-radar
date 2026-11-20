@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-20T04:54:09.347446+00:00",
+  "updated_at": "2026-11-20T14:36:42.345661+00:00",
   "skill_frequency": [
     [
       "aws",
-      81
+      82
     ],
     [
       "kubernetes",
@@ -19,7 +19,7 @@
     ],
     [
       "azure",
-      11
+      12
     ],
     [
       "docker",
@@ -34,6 +34,10 @@
       9
     ],
     [
+      "gcp",
+      8
+    ],
+    [
       "terraform",
       8
     ],
@@ -46,12 +50,8 @@
       8
     ],
     [
-      "gcp",
-      7
-    ],
-    [
       "google cloud",
-      6
+      7
     ],
     [
       "incident response",
@@ -90,6 +90,10 @@
       2
     ],
     [
+      "servicenow",
+      2
+    ],
+    [
       "siem",
       2
     ],
@@ -99,10 +103,6 @@
     ],
     [
       "security operations",
-      1
-    ],
-    [
-      "servicenow",
       1
     ],
     [
