@@ -1,29 +1,33 @@
 {
-  "updated_at": "2026-11-22T01:47:49.589432+00:00",
+  "updated_at": "2026-11-22T09:03:32.145095+00:00",
   "skill_frequency": [
     [
       "aws",
-      82
+      83
     ],
     [
       "kubernetes",
-      19
+      18
     ],
     [
       "s3",
       17
     ],
     [
+      "cad",
+      14
+    ],
+    [
       "ci/cd",
       13
     ],
     [
-      "cad",
-      13
+      "cyber",
+      11
     ],
     [
       "azure",
-      11
+      10
     ],
     [
       "docker",
@@ -34,14 +38,6 @@
       10
     ],
     [
-      "cyber",
-      9
-    ],
-    [
-      "gcp",
-      8
-    ],
-    [
       "terraform",
       8
     ],
@@ -50,8 +46,12 @@
       8
     ],
     [
-      "google cloud",
+      "gcp",
       7
+    ],
+    [
+      "google cloud",
+      6
     ],
     [
       "incident response",
@@ -114,7 +114,11 @@
       1
     ],
     [
-      "servicenow",
+      "cybersecurity",
+      1
+    ],
+    [
+      "information security",
       1
     ]
   ]
