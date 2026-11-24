@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:51:24.364718+00:00",
+  "updated_at": "2026-11-24T03:37:37.944462+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -39,7 +39,7 @@
     ],
     [
       "terraform",
-      8
+      9
     ],
     [
       "devops",
@@ -51,7 +51,7 @@
     ],
     [
       "google cloud",
-      6
+      7
     ],
     [
       "incident response",
@@ -67,6 +67,14 @@
     ],
     [
       "vulnerability",
+      4
+    ],
+    [
+      "penetration testing",
+      3
+    ],
+    [
+      "malware",
       3
     ],
     [
@@ -74,15 +82,7 @@
       3
     ],
     [
-      "penetration testing",
-      2
-    ],
-    [
       "firewall",
-      2
-    ],
-    [
-      "malware",
       2
     ],
     [
