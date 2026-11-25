@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:25:00.629796+00:00",
+  "updated_at": "2026-11-25T00:14:47.259925+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -31,6 +31,10 @@
     ],
     [
       "cloud security",
+      10
+    ],
+    [
+      "cyber",
       9
     ],
     [
@@ -47,10 +51,6 @@
     ],
     [
       "devops",
-      8
-    ],
-    [
-      "cyber",
       8
     ],
     [
@@ -90,6 +90,10 @@
       2
     ],
     [
+      "cybersecurity",
+      2
+    ],
+    [
       "siem",
       2
     ],
@@ -114,7 +118,7 @@
       1
     ],
     [
-      "cybersecurity",
+      "network security",
       1
     ],
     [
