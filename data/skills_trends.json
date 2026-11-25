@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T00:14:47.259925+00:00",
+  "updated_at": "2026-11-25T10:41:54.129939+00:00",
   "skill_frequency": [
     [
       "aws",
@@ -7,7 +7,7 @@
     ],
     [
       "kubernetes",
-      18
+      19
     ],
     [
       "s3",
@@ -15,18 +15,18 @@
     ],
     [
       "cad",
-      14
+      15
     ],
     [
       "ci/cd",
-      12
-    ],
-    [
-      "azure",
-      10
+      13
     ],
     [
       "docker",
+      11
+    ],
+    [
+      "azure",
       10
     ],
     [
@@ -34,15 +34,15 @@
       10
     ],
     [
+      "terraform",
+      9
+    ],
+    [
       "cyber",
       9
     ],
     [
       "gcp",
-      8
-    ],
-    [
-      "terraform",
       8
     ],
     [
@@ -59,7 +59,7 @@
     ],
     [
       "site reliability",
-      4
+      5
     ],
     [
       "vulnerability",
@@ -70,15 +70,15 @@
       4
     ],
     [
+      "sre",
+      4
+    ],
+    [
       "penetration testing",
       3
     ],
     [
       "malware",
-      3
-    ],
-    [
-      "sre",
       3
     ],
     [
